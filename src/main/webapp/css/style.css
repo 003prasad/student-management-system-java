@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center Card */
+.main-card {
+    background-color: #ffffff;
+    width: 450px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.main-card h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Subtitle */
+.main-card p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #667eea;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5a67d8;
+    transform: translateY(-2px);
+}
+
+/* Success Message */
+.success {
+    color: #2ecc71;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.card {
+    background: #ffffff;
+    width: 500px;              /* increased */
+    padding: 45px 40px;        /* more space */
+    border-radius: 14px;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.28);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 32px;           /* bigger */
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2c3e50;
+}
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 35px;       /* more space */
+}
+
+.form-group {
+    margin-bottom: 22px;       /* more gap */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 14px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.back-link {
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+
