@@ -14,7 +14,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/sms?useSSL=false&serverTimezone=UTC",
                 "root",
-                "prasadK@003"
+                "password"
             );
 
         } catch (Exception e) {
