@@ -35,7 +35,24 @@ CRUD operations, JDBC connectivity, and basic web development using Servlets and
 
 ---
 
-## ▶ How to Run the Project
+##  How to Run the Project
 1. Clone the repository
    ```bash
    git clone https://github.com/003prasad/student-management-system-java.git
+2. Import the project into Eclipse (Dynamic Web Project)
+3. Configure Apache Tomcat Server
+4. Import database using MySQL Workbench
+5. Run the project on server
+
+---
+
+##  Admin Login Credentials (Demo)
+   Username: admin
+   Password: admin123
+
+---
+
+## Author
+Prasad G Kolapkar
+MCA Student | Java Developer (Fresher)
+
